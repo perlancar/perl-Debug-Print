@@ -213,6 +213,9 @@ For example: don't output if string matches qr/\ADEBUG:/.
 so debugging using C<print()> can be more useful. (Although I still recommend
 you to use a proper logging framework.)
 
+This module works by intercepting output to STDOUT using L<Tie::STDOUT>, then
+filter and/or post-process the output.
+
 Caveat: This module is still in its early development. API might change. Current
 limitations:
 
