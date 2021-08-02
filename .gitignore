@@ -2,3 +2,4 @@ Debug-Print-*
 .build
 *~
 nytprof*
+.DS_Store
